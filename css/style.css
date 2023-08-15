@@ -156,7 +156,7 @@ height: 100%;
 body{
 height:100%;
 line-height:1.6;
-background-color:#0e0d0d;
+background-color:#3f253e;
 font-size:14px;
 font-family:"pt sans", Arial, sans-serif;
 background-attachment:fixed;
@@ -233,7 +233,7 @@ color:#1b191b;
 
 
 .onesection {
-background:#0e0d0d url(../images/blackbackground.png) repeat;
+background:#3f253e url(../images/blackbackground) repeat;
 position:relative;
 z-index:700;
 padding-bottom:105px;
@@ -277,7 +277,7 @@ z-index:700;
 }
 
 .menudesktopcolor{
-background:#1b191b;
+background:#3f253e;
 
 }
 
@@ -298,7 +298,8 @@ position:relative;
 margin:0px auto;
 }
 
-.nav {
+
+.nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -325,7 +326,8 @@ margin:0px auto;
 }
 
 
-.nav  {
+
+.nav  {
 width:103%; 
 float:left;
 }
@@ -344,7 +346,7 @@ padding:7px ;
 margin:0 0 0 10px;
 color:#fff;
 text-transform:uppercase;
-background:#0e0d0d url(../images/blackbackground.png) repeat;
+background:#3f253e url(../images/blackbackground.pg) repeat;
 text-align:center;
 }
 
@@ -392,7 +394,7 @@ padding:7px ;
 margin:0 0 0 10px;
 color:#fff;
 text-transform:uppercase;
-background:#0e0d0d url(../images/blackbackground.png) repeat;
+background:#3f253e url(../images/blackbackground.pg) repeat;
 text-align:center;
 }
 
@@ -478,7 +480,7 @@ width:100%;
   display: block;
    padding:7px;
 margin:0 7px ;
-background:#0e0d0d url(../images/blackbackground.png) repeat;
+background:#3f253e url(../images/blackbackground.ng) repeat;
 color:#fff;
 font-size:14px;
 text-transform:uppercase;
@@ -525,7 +527,7 @@ display:inline-block;
  
   display:block;
    padding:7px;
-background:#0e0d0d url(../images/blackbackground.png) repeat;
+background:#3f253e url(../images/blackbackground.pg) repeat;
 color:#fff;
 font-size:14px;
 text-transform:uppercase;
@@ -1485,7 +1487,7 @@ background:url(../images/deviantarticon.png) center center no-repeat;
 .footerwrapper {
 width:100%;
 float:left;
-background:#060505;
+background: rgba(0, 0, 0, 0.6);
 padding-top:21px;
 padding-bottom:21px;
 position:relative;

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- saved from url=(0158)https://s0.2mdn.net/sadbundle/14924584518877708288/300x600-Canva-Evergreen/index.html?e=69&leftOffset=0&topOffset=0&c=E0pHt3hRBG&t=4&renderingType=2&ev=01_250 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="ad.size" id="adSize" content="width=300, height=600">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="./adlib.css">
+        <link rel="stylesheet" type="text/css" href="./adStyle.css">
+        <link rel="preload" as="font" href="https://s0.2mdn.net/sadbundle/14924584518877708288/300x600-Canva-Evergreen/CanvaSansDisplayBold.woff" type="font/woff" crossorigin="anonymous">
+        <script src="./Enabler_01_247.js"></script>
+        <script src="./gsap_3.2.4_min.js"></script>
+    <style></style></head>
+    
+    <body>
+        <div id="mainContent" class="mainContent" style="width: 300px; height: 600px; opacity: 1;">
+            <div id="frame1Background-wrapper">
+                <img id="frame1Background" src="./frame1Background.png_1671692335101_frame1Background.png" adlib-image="frame1Background">
+            </div>
+            <div id="frame1Image-wrapper">
+                <img id="frame1Image" src="./blank.png_1671692335101_blank.png" adlib-image="frame1Image">
+            </div>
+            <div id="headline-cta-wrapper">
+                <div id="frame1Headline-wrapper">
+                    <p id="frame1Headline" adlib-text="frame1Headline">Editor de fotos<br>fácil de usar</p>
+                </div>
+                <div id="cta-wrapper" class="centered" style="background-color: rgb(255, 255, 255); transform: translate(0px, 0px);">
+                    <p id="ctaText" adlib-text="ctaText"><span style="color: #252627;">Crie designs grátis</span></p>
+                </div>
+                <div id="app-wrapper">
+                    <img id="logo2" src="./logo2.png_1671692335101_logo2.png" adlib-image="logo2">
+                    <img id="logo3" src="./logo3.png_1671692335101_logo3.png" adlib-image="logo3">
+                </div>
+            </div>
+            <div id="device-bg" style="display: none;"></div>
+            <div id="frame1Image3-wrapper" style="display: none;">
+                <img id="frame1Image3" src="./blank.jpg_1671775063821_blank.jpg" adlib-image="frame1Image3" style="transform: translate3d(-178.506px, 0px, 0px);">
+            </div>
+            <div id="frame1Image2-wrapper" style="display: none;">
+                <img id="frame1Image2" src="./frame1Image2.png_1671692335101_frame1Image2.png" adlib-image="frame1Image2">
+            </div>
+            <div id="frame1Image5-wrapper">
+                <img id="frame1Image5" src="./blank.png_1671692335101_blank(1).png" adlib-image="frame1Image5">
+            </div>
+            <div id="frame1Image4-wrapper">
+                <img id="frame1Image4" src="./frame1Image4.png_1671692335101_frame1Image4.png" adlib-image="frame1Image4">
+            </div>
+            <div id="baseImage-wrapper" style="display: block;">
+                <img id="baseImage" src="./spritesheet.png_1671692335101_spritesheet.png" adlib-image="baseImage" style="transform: translate(0px, 0px);">
+            </div>
+            <div id="logo-wrapper">
+                <img id="logo" src="./logo.png_1671692335101_logo.png" adlib-image="logo">
+            </div>
+            <!-- <img src="guide4.png" style="position: absolute; top: 0px; left: 0px; opacity: 0.5;">     -->
+            <div id="exitButton" class="exitButton"></div>
+        </div>
+    
+    <script>
+        /***************************************
+            DO NOT DELETE VARIABLES BELOW
+        ***************************************/
+        var creativeSize = '300x600'; // Set the width and height of the ad.
+        var devDynamicContent = {}; // Variable for studio invocation code.
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i); // This is to check if the unit is running in mobile so the event to be used is touchend
+        /**************************************/
+        var defaultValues = {
+            ctaColor1:"#01C3CC",
+            ctaText:"Lorem ipsum dolor sit amet,<br>id modo forensibus",
+            baseImage:"baseImage.png",
+            frame1Background:"frame1Background.png",
+            frame1Headline:"Lorem ipsum dolor sit amet ide.",
+            frame1Image:"frame1Image.png",
+            frame1Image2:"frame1Image2.png",
+            frame1Image3:"blank.png",
+            frame1Image4:"frame1Image4.png",
+            frame1Image5:"blank.png",
+            logo:"logo.png",
+            logo2:"logo2.png",
+            logo3:"logo3.png",
+            trigger:"layout-3",
+            trigger2:"cta",
+            cssAttrib:"/* CSS STYLE */",
+            landingPage:"https://www.canva.com/",
+        }
+        var imageElementSizes = {
+            baseImage:[300,365],
+            frame1Image2:[197,421],
+            frame1Image3:[180,391],
+            frame1Image4:[491,318],
+            frame1Image5:[374,235],
+            logo:[149,79],
+            logo2:[99,29],
+            logo3:[99,29],
+        }
+        var possibleValues = {
+            trigger:"mobile,laptop,layout-3",
+            trigger2:"cta,app-widgets"
+        }
+        function exitCall() {
+            Enabler.exitOverride("MainClick", defaultValues.landingPage);
+        }
+        var videoCuePoint = [
+            //"cuePoint:funcName" ex. "1:firstAninmation" please do not included the parenthesis after the function name.
+        ]
+        function initDynamic() {
+            if (checkEnvironment() === 'tools') {
+                for (var i=0;i<Object.keys(defaultValues).length;i++) {
+                    Object.keys(defaultValues)[i];
+                }
+            } else {
+                // paste studio invocation code here, and delete the devDynamicContent declaration as it is already declared outside this function.
+                Enabler.setProfileId(10803225);
+
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed = [{}];
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0]._id = 0;
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].id = 1;
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].Reporting_Label = "639ab4be011c429c39b78b37-63a29461011c42462ff82f0f7505d64a54e061b7acd54ccd58b49dc43500b635_10";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].Variant_name = "Copy RTB 1_Brazil";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].Active = true;
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].Weights = 1;
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Background = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Background.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/frame1Background.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Headline = "Seu editor de fotos completo";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image.Url = "https://cdn.ad-lib.io/v3/partners/633cdb43c2dff55335fd416b/assets/singleFiles/639c18e3011c42c5dbc2f996/original/blank.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image2 = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image2.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/frame1Image2.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image3 = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image3.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/blank.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image4 = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image4.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/frame1Image4.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image5 = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].frame1Image5.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/blank.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].baseImage = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].baseImage.Url = "https://cdn.ad-lib.io/v3/partners/633cdb43c2dff55335fd416b/assets/singleFiles/63a289e1011c42e138f7eeee/original/spritesheet.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].cssAttrib = "\/* CSS STYLE *\/";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].ctaColor1 = "#FFFFFF";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].ctaText = "<span style=\"color: #252627; font-size: 18px;\">Crie designs gr\u00E1tis<\/span>";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].landingPage = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].landingPage.Url = "https://www.canva.com/pt_br/signup/?utm_medium=display&utm_source=dv360&utm_campaign=br_en_all_free_acq_conversion_programmatic-display-mau&utm_term=dv360-adlib";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].logo = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].logo.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/logo.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].logo2 = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].logo2.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/logo2.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].logo3 = {};
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].logo3.Url = "https://cdn.ad-lib.io/v2/partners/633cdb43c2dff55335fd416b/assets/concepts/634e1187c2dff56bd63c1f5d/templates/6398249890698890413c76ef/content/logo3.png";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].trigger = "layout-3";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].trigger2 = "cta";
+                devDynamicContent.Canva_Free_MAU__LATAM_AdLib_Feed[0].Variation_name = "Copy RTB 1_Brazil_970x250_fallback";
+                Enabler.setDevDynamicContent(devDynamicContent);
+                Adlib.assignInvocationCode(); // DO NOT DELETE THIS CODE, This will automatically assign invocation code to defaultValues
+            }
+        }
+        function populate() {
+            //Adlib.preloadDelay = 100;
+            //Adlib.fpsSettings(60); // uncomment this if you want to change the FPS used in the creative
+            Adlib.populateElements(); // DO NOT DELETE THIS. automatically assign the defaultValues to the elements within the ad.
+            /*****************************************
+            If you need to manually assign a defaultValue to a style of an element, add it below.
+            *****************************************/
+            gsap.set("#cta-wrapper", {backgroundColor: defaultValues.ctaColor1});
+        };
+    /*-----------------------------------------------------------------
+
+        DO NOT MODIFY ANYTHING BELOW THIS COMMENT
+
+    -----------------------------------------------------------------*/
+        window.gwd = window.gwd || {};
+        gwd.auto_PauseBtnClick = function(event) {
+            gsap.globalTimeline.pause();
+        }
+        gwd.auto_PlayBtnClick  = function(event) {
+            gsap.globalTimeline.resume();
+        }
+        window.onload = function() {
+            (Enabler.isInitialized()) ? enablerInitHandler() : Enabler.addEventListener(studio.events.StudioEvent.INIT, enablerInitHandler);
+        }
+        function enablerInitHandler() {
+            initDynamic();
+            setTimeout(function() {
+                Adlib.createAd(creativeSize);
+            }, 100);
+            // this is from engineering team. this is strictly required
+            var event = new CustomEvent("adinitialized");
+            document.dispatchEvent(event);
+        }
+        // function for checking serving environment either studio or non studio
+        function checkEnvironment() {
+            let retVal;
+            ( !Enabler.isServingInLiveEnvironment() ) ? retVal = 'tools': retVal = 'studio';
+            return retVal;
+        }
+        (function () {
+            if ( typeof window.CustomEvent === "function" ) return false; //If not IE
+            function CustomEvent ( event, params ) {
+                params = params || { bubbles: false, cancelable: false, detail: undefined };
+                var evt = document.createEvent( 'CustomEvent' );
+                evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+                return evt;
+            }
+            CustomEvent.prototype = window.Event.prototype;
+            window.CustomEvent = CustomEvent;
+        })();
+    </script>
+    <script src="./textFit.js"></script>
+    <script src="./adlibUtils-v3.js"></script>
+    <script src="./animation.js"></script>
+
+<iframe style="display: none;" src="./saved_resource.html"></iframe></body></html>

@@ -1,0 +1,171 @@
+@font-face {
+     font-family: CanvaSansDisplayBold;
+     src: url("CanvaSansDisplayBold.woff");
+}
+.centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#frame1Background-wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#frame1Image-wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#headline-cta-wrapper {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 93px;
+	left: 15px;
+	width: auto;
+	height: auto;
+}
+#cta-wrapper {
+	position: relative;
+	width: 175px;
+	height: auto;
+    border-radius: 2px;
+}
+#frame1Headline-wrapper {
+	position: relative;
+	width: 270px;
+	height: auto;
+    margin-bottom: 16px;
+}
+#frame1Image2-wrapper {
+	position: absolute;
+	top: 229px;
+	left: 52px;
+	width: 197px;
+	height: 420.64px;
+}
+#frame1Image3-wrapper {
+	position: absolute;
+    overflow: hidden;
+	top: 247px;
+	left: 61px;
+	width: 180px;
+	height: 391px;
+}
+#device-bg {
+     position: absolute;
+     top: 246px;
+     left: 60px;
+     width: 180px;
+     height: 391px;
+     background-color: #ffffff;
+}
+#logo-wrapper {
+	position: absolute;
+	left: 76px;
+	top: 10px;
+	width: 149px;
+	height: 79px;
+}
+#app-wrapper {
+     position: relative;
+     display: none;
+     width: auto;
+     height: auto;
+}
+#ctaText {
+	font-family: CanvaSansDisplayBold;
+	font-size: 11px;
+	text-align: center;
+	line-height: 1.2em;
+	letter-spacing: 0em;
+	color: #ffffff;
+    margin: 8px 7px;
+}
+#frame1Headline {
+	font-family: CanvaSansDisplayBold;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.2em;
+	letter-spacing: 0em;
+	color: #ffffff;
+}
+#frame1Background {
+	width: inherit;
+	height: inherit;
+}
+#frame1Image {
+	width: inherit;
+	height: inherit;
+}
+#frame1Image2 {
+	width: inherit;
+	height: inherit;
+}
+#frame1Image3 {
+     width: 23564.27px;
+     height: inherit;
+}
+#logo, #logo2, #logo3 {
+	width: inherit;
+	height: inherit;
+}
+#logo2, #logo3 {
+    position: relative;
+	width: 99.84px;
+	height: 29px;
+}
+#logo2 {
+     margin-right: -1px;
+}
+
+/* DESIGN 2 */
+
+#frame1Image4-wrapper {
+	position: absolute;
+	display: none;
+	top: 247px;
+	left: -32px;
+	width: 491px;
+	height: 318px;
+}
+#frame1Image5-wrapper {
+    position: absolute;
+	display: none;
+    left: 26px;
+	top: 271px;
+	width: 374px;
+	height: 235px;
+	background-color: blue;
+}
+#frame1Image4 {
+	width: inherit;
+	height: inherit;
+}
+#frame1Image5 {
+	width: inherit;
+	height: inherit;
+}
+
+/* DESIGN 3 */
+
+#baseImage-wrapper {
+    position: absolute;
+    display: none;
+    left: 0px;
+	top: 235px;
+	width: 300px;
+	height: 365px;
+}
+#baseImage {
+	position: relative;
+	left: 0px;
+    width: 15000px;
+	height: inherit;
+}
